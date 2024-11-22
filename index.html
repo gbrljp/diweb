@@ -4,48 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEU PORTIFÓLIO</title>
-
     <!-- CSS -->
-
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header id="header">
         <!-- MENU PRINCIPAL = DESKTOP -->
         <nav class="header-nav">
-            <ol class="menu menu-principal">
-                
+            <ul class="menu menu-principal">
                 <li class="menu-item">
 
-                    <a href="#dados" class="menu-link active"> 
-                        <span class="menu-text"> dados </span>
+                    <a href="#sobremim" class="menu-link active"> 
+                        <span class="menu-text"> sobre mim </span>
                     </a>
                 </li>
-
                 <li class="menu-item">
-
-                    <a href="#formação" class="menu-link"> 
+                    <a href="#formacao" class="menu-link"> 
                         <span class="menu-text"> formação </span>
                     </a>
                 </li>
-
                 <li class="menu-item">
 
                     <a href="#experiencia" class="menu-link"> 
                         <span class="menu-text"> experiência </span>
                     </a>
                 </li>
-
                 <li class="menu-item"> 
-
                     <a href="#infocomple" class="menu-link"> 
                         <span class="menu-text"> informações complementares </span>
                     </a>
                 </li>
-
-            </ol> <!-- fim da ul -->
+            </ul> <!-- fim da ul -->
         </nav>
 
         <div class="header-logo">
@@ -53,12 +45,40 @@
                 <img src="" alt="">
             </a>
         </div>
-
         <!-- trocar cor do tema -->
         <div class="trocar-tema">
             <i id="trocar-tema" class="bi bi-sun"></i>
             <i id="trocar-tema"></i>
         </div>
     </header> <!-- fim do header -->
+    <!-- menu mobile -->
+     <nav class="nav-mobile">
+        <ul class="menu menu-mobile">
+            <li class="menu-item">
+                <a href="#sobremim" class="menu-link active">
+                    <i class="bi bi-person-circle"></i>
+                    <span class="menu-text">sobre mim</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#formacao" class="menu-link">
+                    <i class="bi bi-book"></i>
+                    <span>formação</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#experiencia" class="menu-link active">
+                    <i class="bi bi-briefcase"></i>
+                    <span class="menu-text">experiência</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#infocomple" class="menu-link">
+                    <i class="bi bi-info-circle"></i>
+                    <span>informações complementares</span>
+                </a>
+            </li>
+        </ul>
+     </nav>
 </body>
 </html>
