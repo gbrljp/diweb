@@ -1,5 +1,102 @@
 /* reset do navegador */
 * {
-    margin: 1;
-    padding: 1;
+    margin:0 ; /* Margem */
+    /*margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ; */
+    padding: 0; /* Preenchimento */
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: rgb(15, 15, 15);
+}
+
+a {
+    text-decoration: double;
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(3, 196, 255);
+}
+
+i {
+    color: rgb(3, 196, 255);
+}
+/* 
+ID = #
+Class = .
+ */
+#header { /* estrutura do menu */
+    display: flex;
+    flex-flow: row wrap; /* ajustar linha do site */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 5px;
+    z-index: 2;
+}
+.trocar-tema{
+    display: flex;
+    justify-content: flex-end;
+}
+#trocar-tema{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer ;
+    transition: ;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    background: rgb(19, 19, 19);
+    gap: 18px;
+}
+.menu-item {
+    width: 100%;
+}
+.menu-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu-mobile{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: px;
+    justify-content: space-between;
+    border-top: 5px solid rgb(3, 196, 255);
+}
+.menu-mobile .menu-link {
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 15px;
+}
+
+.menu-link.active .menu-icon,
+.menu-link.active .menu-text,
+.menu-link:hover .menu-icon,
+.menu-link:hover .menu-text {
+    color: rgb(3, 196, 255);
+    font-size: 18px;
+    transition: 0.5s;
+    font-weight: 450;
+}
+.menu-icon,
+.menu-text{
+    color: rgb(255, 255, 255);
+    font-weight: 450;
+}
+
+.menu-icon{
+    font-size: 19px;
+    color: rgb(72, 72, 75);
+}
+
+.menu-text{
+    font-size: 15px;
+    text-transform: uppercase ;
 }
