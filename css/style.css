@@ -482,6 +482,22 @@ h3{
     padding-right: 16px;
 }
 
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 16px;
+    border-top: 1px solid var(--cor--menu) ;
+    border-bottom: 1px solid var(--cor--menu);
+}
+.contato p{
+    text-align: center;
+}
+.contato .email{
+    margin-bottom: 60px;
+}
 /* logo */
 
 html[data-theme='dark'] .logo {
@@ -527,7 +543,7 @@ html[data-theme='dark'] .logo {
 
     #home,
     .projetos,
-    .sobre {
+    .sobre{
         padding: 128px 96px 64px 96px;
     }
 
@@ -545,7 +561,12 @@ html[data-theme='dark'] .logo {
         font-size: 40px;
         margin-bottom: 30px;
     }
-
+    .contato {
+        padding: 90px;
+    }
+    .contato p{
+        width: 80%;
+    }
 }
 
 .video {
