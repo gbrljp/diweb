@@ -498,6 +498,15 @@ h3{
 .contato .email{
     margin-bottom: 60px;
 }
+
+footer p {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+footer a{
+    color: rgb(134, 134, 134);
+}
 /* logo */
 
 html[data-theme='dark'] .logo {
@@ -582,7 +591,12 @@ html[data-theme='dark'] .logo {
     .accordion-item{
         width: 90vw;
     }
+    footer {
+        margin-bottom: 80px;
+        padding: 20px;
+    }
 }
+
 
 @media (min-width: 992px) {
     .projeto-card{

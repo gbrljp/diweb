@@ -467,10 +467,55 @@
             <span class="email"> gabriel.jesuspassos2003@gmail.com </span>
 
         </a>
+
+        <div class="form-contato">
+
+            <form  action="https://formspree.io/f/manykdyd"
+            method="POST">
+                <div>
+                    <!-- etiqueta -->
+                    <label for="name" class=""> Nome Completo *</label>
+                    <!-- campo de preenchimento -->
+                    <input type="text" name="name" placeholder="Digite seu nome Completo" >
+                </div>
+                <div>
+                    <label for="email"> E-mail *</label>
+                    <input type="email" name="email" id="email" required>
+                    
+                </div>
+                <div class="">
+                    <label for="contato"> Contato</label>
+                    <br>
+                    <label for="tel"> Telefone </label>
+                    <input type="radio" name="tel">
+                    <input type="tel" name="telefone" placeholder="11 9XXXX-XXXX" pattern="">
+                    <br>
+                    <label for="tel"> Celular </label>
+                    <input type="radio" name="tel">
+                    <input type="tel" name="tel">
+
+                </div>
+                <div class="form-grupo">
+                    <label for=""> Mensagem de Erro </label>
+                    <input type="file">
+                </div>
+                <div class="">
+                    <textarea name="message" id="message" cols="30" rows="10">
+                    </textarea>
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+            
+        </div>
+        
+        
     </section>
+
     <footer>
         <p>
-            &copy; 2024. portfolio desenvolvido em aula de designer de interface web no <a href="https://sp.senai.br/unidade/leopoldina/" target="_blank">SENAI Leopoldina - SP</a>. Desenvolvido por <a href="https://github.com/gbrljp"> Gabriel Passos</a>
+            &copy; 2024. portfolio desenvolvido em aula de designer de interface web no <a href="https://sp.senai.br/unidade/leopoldina/" target="_blank">SENAI Leopoldina - SP</a>. Desenvolvido por <a href="https://github.com/gbrljp" target="_blank"> Gabriel Passos</a>
         </p>
     </footer>
 
