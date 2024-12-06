@@ -36,6 +36,7 @@
     --trocar-tema: #ffffff;
 
     --cor-btn: #ffffff;
+    --fundo-reverse: #fff;
 }
 
 /* tema Light */
@@ -60,6 +61,7 @@
     --trocar-tema: #297edf;
 
     --cor-btn: #111217;
+    --fundo-reverse: #111217;
 
 }
 
@@ -507,6 +509,71 @@ footer p {
 footer a{
     color: rgb(134, 134, 134);
 }
+.form-contato{
+    background: var(--fundo-reverse);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px;
+    width: 90%;
+    max-width: 800px;
+}
+.form-contato form{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+.form-label {
+    color: var(--cor-fundo); 
+    font-weight: bold; 
+    font-size: 14px; 
+    margin-bottom: 5px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-input, .form-textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--cor-fundo);
+    font-size: 13px;
+    margin-top: 5px;
+}
+.form-group .form-input:focus,
+.form-group .form-textarea:focus {
+    border: red;
+    outline: invert;
+    border-radius: none;
+}
+.form-input-file{
+    margin-top: 8px;
+    font-size: 15px;
+}
+.form-textarea{
+    padding: 5px;
+}
+.form-button {
+    display: flex ;
+    width: 100px;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #cecece;
+}
+.form-button:hover{
+    background-color: rgb(213, 255, 154);
+    box-shadow: 0px 0px 10px rgb(54, 90, 0);
+}
+
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+.btn-form .form-button{
+    justify-content: center;
+}
+
+
 /* logo */
 
 html[data-theme='dark'] .logo {
