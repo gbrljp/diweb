@@ -579,7 +579,9 @@ footer a{
 html[data-theme='dark'] .logo {
     filter: invert(1);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 /*  Responsivo  */
 

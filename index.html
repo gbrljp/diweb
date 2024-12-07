@@ -16,7 +16,8 @@
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="">
-
+     <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -117,25 +118,33 @@
 
                 <li>
                     <a class="menu-link" href="https://github.com/gbrljp" target="_blank">
-                        <i class="menu-icon bi bi-github"> </i>
+                        <i class="menu-icon bi bi-github" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"> </i>
                     </a>
                 </li>
 
                 <li>
                     <a class="menu-link" href="https://www.linkedin.com/in/gabriel-passos2003/" target="_blank">
-                        <i class="menu-icon bi bi-linkedin"></i>
+                        <i class="menu-icon bi bi-linkedin" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"></i>
                     </a>
                 </li>
 
                 <li>
                     <a class="menu-link" href="https://www.instagram.com/gbrl.jp/" target="_blank">
-                        <i class="menu-icon bi bi-instagram"></i>
+                        <i class="menu-icon bi bi-instagram" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"></i>
                     </a>
                 </li>
 
                 <li>
                     <a class="menu-link" href="https://pt.duolingo.com/profile/Jesus_Gabriel03" target="_blank">
-                        <i class="menu-icon bi bi-translate"></i>
+                        <i class="menu-icon bi bi-translate" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"></i>
                     </a>
                 </li>
 
@@ -150,7 +159,7 @@
 
         </div>
 
-        <div class="video">
+        <div class="video" data-aos="zoom-in-up">
 
             <iframe width="10" height="" src="https://www.youtube.com/embed/zxYcG9jMO3w?si=rFPFGhJQp_r7_KG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -160,12 +169,12 @@
 
     <section id="projetos" class="projetos">
 
-        <h2> Projetos </h2>
+        <h2 data-aos="zoom-in"> Projetos </h2>
 
         <div class="projetos-container">
 
             <!-- Projeto 1 -->
-            <div class="projeto-card">
+            <div class="projeto-card" data-aos="fade-left">
 
                 <img src="imagens/senai.jpg" alt="" class="img-card">
 
@@ -216,7 +225,7 @@
 
 
             <!-- Projeto 2 -->
-            <div class="projeto-card card-reverse">
+            <div class="projeto-card card-reverse" data-aos="fade-right">
 
                 <img src="imagens/senai-local.jpg" alt="" class="img-card">
 
@@ -264,7 +273,7 @@
 
             </div> <!-- Fim Projeto 1 -->
 
-            <div class="projeto-card">
+            <div class="projeto-card" data-aos="fade-left">
 
                 <img src="imagens/SENAI-aluna.jpg" alt="" class="img-card">
 
@@ -324,10 +333,10 @@
     <section id="sobre" class="sobre">
 
         <div class="sobre-content1"> <!-- comeco da div1 -->
-            <img src="imagens/logo-g.png" alt="" class="sobre-logo">
+            <img src="imagens/logo-g.png" alt="" class="sobre-logo" data-aos="zoom-in">
 
-            <div class="sobre-descricao"> <!-- comeco da descricao -->
-                <h2> Sobre Mim</h2>
+            <div class="sobre-descricao" data-aos="zoom-in-up"> <!-- comeco da descricao -->
+                <h2 data-aos="zoom-in"> Sobre Mim</h2>
 
                 <p>
                     Eu sou Gabriel de Jesus Passos, nasci na cidade de São Paulo e tenho 21 anos
@@ -348,7 +357,7 @@
             </div> <!-- fim da descrição -->
         </div> <!-- fim da div1 -->
 
-        <div class="sobre-content2">
+        <div class="sobre-content2" data-aos="zoom-in-up">
             <div class="col1"><!-- comeco coluna 1 -->
                 <div class="row1">
                     <h3> Formação </h3>
@@ -377,7 +386,7 @@
                 </div>
             </div> <!-- fim coluna 1 -->
             
-            <div class="col2"><!-- comeco coluna 2 -->
+            <div class="col2" data-aos="zoom-in-up"><!-- comeco coluna 2 -->
 
                 <h3> Cursos </h3>
                 <div class="accordion">
@@ -431,9 +440,9 @@
 
     </section>
 
-    <section id="contato" class="contato">
+    <section id="contato" class="contato" data-aos="zoom-in-up">
 
-        <h2> Contato</h2>
+        <h2 data-aos="zoom-in"> Contato</h2>
 
         <p> Você pode entrar em contato comigo através do meu e-mail ou redes sociais. Me siga para acompanhar meus trabalhos
         </p>
@@ -514,6 +523,9 @@
         </p>
     </footer>
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Incluir JavaScript -->
     <script src="js/script.js"> </script>
 
 </body>
